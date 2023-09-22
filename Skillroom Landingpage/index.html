@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Eduliterate</title>
+    </head>
+    <body>
+        <!-- Bagian navbar dengan tag <nav> (soal no 1) -->
+        <nav>
+            <div class="logo">
+                <span class="logo-text">EDULITERATE</span>
+            </div>
+            <ul class="nav-links">
+                <li>
+                    <a href="#section1">HOME</a>
+                </li>
+                <li>
+                    <a href="#section1">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#section2">REGISTRATION</a>
+                </li>
+                <li>
+                    <a href="#footer">CONTACT US</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="section1" class="section1">
+            <div class="section1-text">
+                <h1>EDULITERATE</h1>
+                <!-- Bagian Deskripsi dengan tag <p> (soal no 2)-->
+                    <p id="description">At Eduliterate, we're dedicated to your educational and personal growth. We offer a diverse array of courses and resources, engaging learning environments, a supportive community of learners, and personalized learning experiences. Our commitment to continuous improvement ensures you receive the best education, setting you on a path to knowledge, skill development, and personal transformation. Join us today and explore the world of possibilities with Eduliterate.
+                    </p>
+            </div>
+            <div class="section1-image">
+                <!-- Menambahkan tag <img> (soal no 3) -->
+                <img src="assets/img/img-1.png" alt="Image">
+            </div>
+        </div>
+        <div class="sub-title">Daftar Sekarang atau
+            <!-- Menambahkan tag <a> yaitu link ke skilvul.com (soal no 4) -->
+            <a id="link" href="https://skilvul.com">Visit Skilvul</a>
+        </div>
+        <div id="section2" class="section2">
+            <div class="video-container">
+                <video controls autoplay>
+                    <!-- Menambahkan tag <video> (soal no 3) -->
+                    <source src="assets/video/video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p class="video-desc">
+                    <span class="bold">Daftar Sekarang</span>
+                    dan dapatkan kemudahan dalam belajar dimanapun dan kapanpun</p>
+            </div>
+            <div class="form-container">
+                <!-- Menambahkan elemen form (soal no 5) -->
+                <form id="form1">
+                    <h2>Lengkapi Form Berikut</h2>
+                    <input id="name" type="text" placeholder="Name">
+                    <input id="city" type="text" placeholder="City">
+                    <input id="email" type="email" placeholder="Email">
+                    <input id="zip-code" type="number" placeholder="Zip Code">
+                    <br/>
+                    <input id="status" type="checkbox">
+                    <label for="status" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+                    <div id="warning"></div>
+                    <button id="submit-form" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- menambahkan footer (soal no 11) -->
+        <footer id="footer">
+            <div class="footer-content">
+                <h3>EDULITERATE</h3>
+                <p>Phone: +123 456 789</p>
+                <p>Email: eduliterate@gmail.com</p>
+                <p>Address: Jl. Abc no. 123 Surabaya, Jawa Timur, Indonesia</p>
+            </div>
+            <div class="footer-bottom">
+               Created by muhammadfauzi. | &copy; 2023 
+            </div>
+        </footer>
+
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
